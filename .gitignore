@@ -1,3 +1,4 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -28,4 +29,36 @@ env/
 venv/
 *.log
 *.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
+Thumbs.db
+
+# 数据文件（根据需求选择是否上传）
+# data/*.csv
+# data/**/*.csv
+# data/*.txt
+# data/**/*.txt
+
+# 大型数据文件
+data/raw_data_800.csv
+data/raw_data_temp.csv
+data/final_panel_data.csv
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# 敏感信息
+.env.local
+.secrets
+*.key
+*.pem
